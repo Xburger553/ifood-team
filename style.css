@@ -53,10 +53,10 @@
 /* FONTS */
 @font-face {
   font-family: 'ElanBQ';
-  src: url('/fonts/ElanBQ-Book.eot');
-  src: url('/fonts/ElanBQ-Book.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/ElanBQ-Book.woff2') format('woff2'),
-    url('/fonts/ElanBQ-Book.woff') format('woff');
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/ElanBQ-Book.eot');
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/ElanBQ-Book.eot?#iefix') format('embedded-opentype'),
+    url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/ElanBQ-Book.woff2') format('woff2'),
+    url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/ElanBQ-Book.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -64,10 +64,10 @@
 
 @font-face {
   font-family: 'FrizQuadrata';
-  src: url('/fonts/FrizQuadrata.eot');
-  src: url('/fonts/FrizQuadrata.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/FrizQuadrata.woff2') format('woff2'),
-    url('/fonts/FrizQuadrata.woff') format('woff');
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/FrizQuadrata.eot');
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/FrizQuadrata.eot?#iefix') format('embedded-opentype'),
+    url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/FrizQuadrata.woff2') format('woff2'),
+    url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/FrizQuadrata.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -75,8 +75,8 @@
 
 @font-face {
   font-family: 'MarcellusRegular';
-  src: url('/fonts/marcellus-regular-webfont.woff2') format('woff2'),
-    url('/fonts/marcellus-regular-webfont.woff') format('woff');
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/marcellus-regular-webfont.woff2') format('woff2'),
+    url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/marcellus-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   C: \Users\Adriel Oliveira\Documents\hurgh-site\fonts
@@ -84,7 +84,7 @@
 
 @font-face {
   font-family: CaeciliaLTStd-Light;
-  src: local(Caecilia-Light), url(/fonts/Caecilia-Light.ttf) format("truetype");
+  src: local(Caecilia-Light), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/Caecilia-Light.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -92,7 +92,7 @@
 
 @font-face {
   font-family: CaeciliaLTStd-Bold;
-  src: local(Caecilia-Bold), url(/fonts/Caecilia-Bold.ttf) format("truetype");
+  src: local(Caecilia-Bold), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/Caecilia-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -100,7 +100,7 @@
 
 @font-face {
   font-family: MyriadPro;
-  src: local(MyriadPro-Regular), url(/fonts/MyriadPro-Regular.woff) format("woff"), url(/fonts/MyriadPro-Regular.ttf) format("truetype");
+  src: local(MyriadPro-Regular), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Regular.woff) format("woff"), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -108,8 +108,8 @@
 
 @font-face {
   font-family: MyriadPro;
-  src: url('/fonts/MyriadPro-Light.eot');
-  src: local(MyriadPro-Light), url('/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url(/fonts/MyriadPro-Light.woff) format("woff"), url(/fonts/MyriadPro-Light.ttf) format("truetype");
+  src: url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Light.eot');
+  src: local(MyriadPro-Light), url('https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Light.woff) format("woff"), url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/fonts/MyriadPro-Light.ttf) format("truetype");
   font-weight: 200;
   font-style: normal;
   font-stretch: normal;
@@ -123,13 +123,13 @@ body {
 }
 
 body.index {
-  background: url("/imgs/background-body4.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/background-body4.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
 body.index {
-  background: url("/imgs/background-body4-1.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/background-body4-1.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
 }
@@ -261,7 +261,7 @@ li.menu-item:hover ol.sub-menu {
 
 /* QUEM SOMOS */
 body.quemSomos {
-  background: #3c3c3c url(file:///C:/Users/Adriel%20Oliveira/Documents/Birimba-bot/hurgh-site/imgs/sUIVCR.png) no-repeat;
+  background: #3c3c3c url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/sUIVCR.png) no-repeat;
   background-size: cover;
   background-position: 0;
 }
@@ -318,7 +318,7 @@ p.quotes span {
 }
 
 body.championList {
-  background: url("/imgs/bg_lol.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/bg_lol.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -446,7 +446,7 @@ h3.title span {
 
 /* PG - MEMBROS */
 body.membros {
-  background: url(/imgs/bg_membros.jfif) no-repeat;
+  background: url(https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/bg_membros.jfif) no-repeat;
   background-size: cover;
   background-position: 0;
   background-attachment: fixed;

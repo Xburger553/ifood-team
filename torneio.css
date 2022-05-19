@@ -10,7 +10,7 @@
 }
 
 body.championList.torneio {
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg-torneio.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/bg-torneio.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -33,7 +33,7 @@ body.championList.torneio {
   padding: 2em 2em;
   box-sizing: border-box;
   color: #FFF;
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/brackets-bg2.jpg") no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/brackets-bg2.jpg") no-repeat;
   background-clip: padding-box;
   /* !importantÃƒÂ© */
   border: solid 2px transparent;
@@ -184,7 +184,7 @@ body.championList.torneio {
   height: 15px;
   margin-top: 2px;
   margin-right: 5px;
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bulletIcon.png") 60% center / contain no-repeat;
+  background: url("https://raw.githubusercontent.com/Xburger553/ifood-team/main/imgs/bulletIcon.png") 60% center / contain no-repeat;
 }
 
 .titleModal:after {
