@@ -1,0 +1,785 @@
+﻿/* EXTERNAL FONTS */
+/* latin-ext */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8FUsGa6aN.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/coda/v16/SLXHc1jY5nQ8FUUGaw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/coda/v16/SLXIc1jY5nQ8HeIgfpeswut1.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Coda';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/coda/v16/SLXIc1jY5nQ8HeIgfpmswg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Nova Flat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/novaflat/v12/QdVUSTc-JgqpytEbVeb0viFl.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/* FONTS */
+@font-face {
+  font-family: 'ElanBQ';
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.eot');
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.eot?#iefix') format('embedded-opentype'),
+    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.woff2') format('woff2'),
+    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FrizQuadrata';
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.eot');
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.eot?#iefix') format('embedded-opentype'),
+    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.woff2') format('woff2'),
+    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MarcellusRegular';
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/marcellus-regular-webfont.woff2') format('woff2'),
+    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/marcellus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  C: \Users\Adriel Oliveira\Documents\hurgh-site\fonts
+}
+
+@font-face {
+  font-family: CaeciliaLTStd-Light;
+  src: local(Caecilia-Light), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/Caecilia-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: CaeciliaLTStd-Bold;
+  src: local(Caecilia-Bold), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/Caecilia-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: local(MyriadPro-Regular), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Regular.woff) format("woff"), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.eot');
+  src: local(MyriadPro-Light), url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.woff) format("woff"), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+/* GERAL */
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body.index {
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/background-body4.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+body.index {
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/background-body4-1.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.azulClaro {
+  color: #4cf3f8;
+}
+
+.vermelho {
+  color: #ed1722;
+}
+
+/* FIM - GERAL */
+
+/* MENU */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+nav.menu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 0;
+  z-index: 3;
+  position: inherit;
+  transform: none;
+}
+
+nav.menu ol {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+
+nav.menu ol li {
+  display: inline-block;
+  position: relative;
+}
+
+nav.menu ol li a {
+  padding: 18px;
+  font-family: "MarcellusRegular";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(88 125 151);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav.menu ol li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgb(88 125 151);
+}
+
+nav.menu ol.sub-menu {
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: none;
+}
+
+nav.menu ol.sub-menu li {
+  background: #4a4a67;
+  display: block;
+}
+
+nav.menu ol.sub-menu {
+  display: none;
+}
+
+li.menu-item:hover ol.sub-menu {
+  display: block;
+  position: absolute;
+}
+
+/* FIM MENU */
+
+/* CONTAINER */
+.containerPrincipal {
+  width: 100%;
+  height: 100%;
+  padding-left: 10%;
+  padding-right: 20%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.contentIntro {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: #FFF;
+  font-family: "MarcellusRegular";
+}
+
+.contentIntro h1 {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 5px 4px #0000009c;
+}
+
+.contentIntro h3 {
+  text-shadow: 2px 1px #0000009c;
+  color: rgb(251 252 252);
+}
+
+.contentIntro span#hurgh {
+  cursor: pointer;
+}
+
+.contentIntro span.azulClaro:hover {
+  color: #4cf3f8;
+  text-shadow: 0px 0px 30px #000000f2;
+}
+
+/* FIM CONTAINER */
+
+.main {
+  width: 69%;
+  margin: 0 auto;
+  min-height: 40vw;
+  border-radius: 15px;
+  padding: 3% 2%;
+}
+
+/* QUEM SOMOS */
+body.quemSomos {
+  background: #3c3c3c url(file:///C:/Users/Adriel%20Oliveira/Documents/Birimba-bot/hurgh-site/imgs/sUIVCR.png) no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.quemSomos nav.menu {
+  position: inherit;
+  transform: none;
+}
+
+.quemSomos nav.menu ol {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 0 rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+}
+
+.quemSomos .main {
+  background: #151414e0;
+  padding: 3% 7%;
+}
+
+.quemSomos nav.menu ol li a {
+  color: #ffffffc4;
+  font-weight: normal;
+}
+
+.quemSomos .intro {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.quemSomos .intro h1 {
+  margin-bottom: 25px;
+}
+
+p.quotes {
+  font-size: 21px;
+  font-style: italic;
+}
+
+p.quotes span {
+  font-size: 15px;
+}
+
+/* FIM QUEM SOMOS */
+
+
+/* LISTA DE CAMPEÕES */
+.main .intro h5 {
+  font-size: 14px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+body.championList {
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg_lol.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.championList .main {
+  background: none;
+}
+
+.championList .main {
+  width: 70%;
+  padding: 3% 2%;
+}
+
+section.listagem {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 53px 0px;
+}
+
+a.cardChamp {
+  width: calc(100% / 5 - 15px);
+  display: block;
+  margin: 0 0 20px;
+}
+
+a.cardChamp img {
+  object-fit: cover;
+}
+
+.boxImg {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.boxImg>* {
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: 0px;
+  width: 104%;
+  height: 104%;
+  transition: all 0.5s ease-out;
+}
+
+.boxImg:before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 112.903%;
+  background-color: rgb(247 247 247 / 0%);
+}
+
+.boxImg:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 12%;
+  padding-top: 12%;
+  background-color: #172240;
+  transition: transform 0.5s ease 0s;
+  transform: translate(50%, -50%) rotate(45deg);
+}
+
+a.cardChamp:hover .boxImg img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-out;
+}
+
+a.cardChamp:hover .boxImg:after {
+  transform: translate(100%, -100%) rotate(45deg);
+}
+
+.champName {
+  display: inline-block;
+  color: #ffffffcc;
+  white-space: nowrap;
+  font-size: 17px;
+  font-family: "FrizQuadrata";
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-overflow: ellipsis;
+  transition: transform 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  text-transform: uppercase;
+}
+
+.boxNameChamp {
+  display: block;
+  overflow: hidden;
+  background-color: rgb(6, 28, 37);
+  padding: 6% 8%;
+  transition: background-color 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  text-align: center;
+}
+
+a.cardImg:hover .boxImg:after {
+  transform: translate(100%, -100%) rotate(45deg);
+}
+
+a.cardChamp:hover .boxNameChamp {
+  background-color: rgb(0, 102, 128);
+}
+
+a.cardChamp:hover .boxNameChamp .champName {
+  font-size: 18px;
+}
+
+h3.title {
+  font-size: 18px;
+  font-style: italic;
+}
+
+h3.title span {
+  display: block;
+  font-size: 80px;
+  font-family: 'FrizQuadrata';
+}
+
+/* FIM LISTA DE CAMPEÕES */
+
+/* PG - MEMBROS */
+body.membros {
+  background: url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg_membros.jfif) no-repeat;
+  background-size: cover;
+  background-position: 0;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.membros .introMembers {
+  text-align: center;
+  color: #FFFFFF;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.membros .main {
+  background: rgb(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.membros .introMembers h1 {
+  font-family: "Nova Flat";
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+.membros .introMembers p {
+  font-family: "Coda";
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.mList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.membersList {
+  margin: 6% 2%;
+}
+
+.memberCard {
+  width: calc(100% / 3 - 65px);
+  position: relative;
+  object-fit: cover;
+  border: 1px solid rgb(39 39 39 / 31%);
+  box-shadow: 0px 2px 30px 0px #0c101b;
+  transition: box-shadow 300ms ease 0ms;
+  margin-bottom: 30px;
+  min-height: 222px;
+  max-height: 222px;
+  overflow: hidden;
+}
+
+img.avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.fundador .memberCard {
+  width: calc(100% / 3 - 5%);
+}
+
+.memberCard .fade {
+  opacity: unset;
+  background: linear-gradient(180deg, rgb(0 46 84 / 0) 0%, #0c101bad 700%);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.memberCard .infos {
+  position: absolute;
+  bottom: 17px;
+  padding: 0 15px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.memberCard .infos .nome {
+  font-family: "Coda", display;
+  color: #FFF;
+  font-size: 18px;
+}
+
+.fundador .memberCard .infos .cargo {
+  font-family: "Coda";
+  color: #fc575e;
+}
+
+.comite .memberCard .infos .cargo {
+  font-family: "Coda";
+  color: #7950a5;
+}
+
+.atendente .memberCard .infos .cargo {
+  font-family: "Coda";
+  color: #3478bd;
+}
+
+h2.titleCargo {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: 'Nova Flat';
+  font-size: 3em;
+  margin-bottom: 25px;
+}
+
+.memberCard:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #fc575e;
+  z-index: 1;
+  top: 4px;
+  left: 4px;
+}
+
+.memberCard:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  top: 4px;
+  left: 4px;
+  background: #fc575e;
+}
+
+.comite .memberCard::after,
+.comite .memberCard:before {
+  background: #7950a5
+}
+
+.atendente .memberCard::after,
+.atendente .memberCard:before {
+  background: #3478bd
+}
+
+/* FIM PG MEMBROS */
+
+
+.memberCard:hover:before {
+  -webkit-animation-name: lineDown;
+  animation-name: lineDown;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.memberCard:hover:after {
+  -webkit-animation-name: lineUp;
+  animation-name: lineUp;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes lineDown {
+  0% {
+    top: 4px;
+    width: 2px;
+    height: 30px;
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    width: 2px;
+    height: 96%;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes lineDown {
+  0% {
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    width: 2px;
+    height: 96%;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+@-webkit-keyframes lineUp {
+  0% {
+    top: 4px;
+    width: 30px;
+    height: 2px;
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    width: 96%;
+    height: 2px;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes lineUp {
+  0% {
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    width: 96%;
+    height: 2px;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.memberCard .contentMember {
+  opacity: 0;
+  height: 0;
+  background: black;
+  width: 100.1%;
+}
+
+.memberCard:hover .contentMember {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    height: 0;
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    height: 380px;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    height: 0;
+    -webkit-transform: translate3d(0, 0%, 0);
+    transform: translate3d(0, 0%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    height: 380px;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.memberCard .infosHidden {
+  padding: 0 15px;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-family: "Coda";
+  opacity: 0;
+}
+
+.memberCard:hover .infosHidden {
+  position: absolute;
+  top: 10%;
+}
+
+.memberCard:hover .fade {
+  background: linear-gradient(180deg, rgb(0 46 84 / 40%) 0%, #0c101bad 700%);
+}
+
+.memberCard:hover .infosHidden {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+ul.bullets {
+  margin: 35px 0 0 0;
+}
+
+ul.bullets li {
+  margin: 10px 0;
+  font-weight: 100;
+}
+
+ul.bullets li b {color: rgb(208, 168, 92);}

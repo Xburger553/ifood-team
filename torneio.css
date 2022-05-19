@@ -1,0 +1,204 @@
+﻿body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+body.championList.torneio {
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg-torneio.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.championList.torneio .main {
+  padding: 1% 2%;
+}
+
+.torneio h3.title span {
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+
+.torneio .containerTorneio {
+  margin: auto;
+  margin-top: 45px;
+  position: relative;
+  padding: 2em 2em;
+  box-sizing: border-box;
+  color: #FFF;
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/brackets-bg2.jpg") no-repeat;
+  background-clip: padding-box;
+  /* !importantÃƒÂ© */
+  border: solid 2px transparent;
+  /* !importantÃƒÂ© */
+  background-position: center;
+  background-size: cover;
+  border-radius: 1px;
+}
+
+.torneio .containerTorneio img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.torneio .containerTorneio:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -4px;
+  /* !importantÃƒÂ© */
+  border-radius: inherit;
+  /* !importantÃƒÂ© */
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  opacity: 0.7;
+}
+
+.torneio .containerTorneio:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  background: black;
+  opacity: 0.85;
+}
+
+.torneio .containerTorneio .infos {
+  position: absolute;
+  left: 102%;
+  top: -9px;
+  z-index: 1;
+  text-align: center;
+}
+
+.torneio .containerTorneio .infos div {
+  border: solid 2px transparent;
+  position: relative;
+  margin: 10px 0;
+  background: black;
+  height: 40px;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.torneio .containerTorneio .infos div.conditions {
+  font-size: 12px;
+}
+
+.torneio .containerTorneio .infos div a {
+  color: white;
+  text-decoration: none;
+  font-family: 'MarcellusRegular';
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.torneio .containerTorneio .infos div a:hover {
+  font-weight: bold;
+}
+
+.torneio .containerTorneio .infos div:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -5px;
+  /* !importantÃƒÂ© */
+  border-radius: inherit;
+  /* !importantÃƒÂ© */
+  background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  opacity: 0.7
+}
+
+
+.torneio .modal {
+  border-radius: 5px;
+  position: relative;
+  padding: 2em 2em;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 500;
+  background: #020c18;
+  z-index: auto;
+  background-clip: padding-box;
+  /* !importantÃƒÂ© */
+  border: solid 2px black;
+  /* !importantÃƒÂ© */
+  max-width: 750px;
+}
+
+.torneio .modal:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -5px;
+  /* !importantÃƒÂ© */
+  border-radius: inherit;
+  /* !importantÃƒÂ© */
+  border: 1px solid #FCF6BA;
+  opacity: 1;
+}
+
+.titleModal {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 28px;
+  color: rgb(208, 168, 92);
+  font-family: 'FrizQuadrata';
+  font-weight: normal;
+  padding: 0px 0;
+}
+
+.titleModal:before {
+  content: "";
+  display: block;
+  width: 7.14286%;
+  height: 15px;
+  margin-top: 2px;
+  margin-right: 5px;
+  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bulletIcon.png") 60% center / contain no-repeat;
+}
+
+.titleModal:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: rgb(208 168 92 / 30%);
+  position: absolute;
+  bottom: -10px;
+}
+
+.modal a.close-modal {
+  top: -22px;
+  right: -22px;
+  width: 35px;
+  height: 35px;
+}

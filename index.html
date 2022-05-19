@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="index">
+  <nav class="menu">
+    <ol>
+      <li class="menu-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="menu-item">
+        <a href="quem-somos.html">Quem somos</a>
+      </li>
+      <li class="menu-item">
+        <a href="membros.html">Membros</a>
+      </li>
+      <li class="menu-item">
+        <a href="#">LOL</a>
+        <ol class="sub-menu">
+          <li class="menu-item"><a href="champions-list.html">Campeões</a></li>
+          <li class="menu-item"><a href="clash.html">Clash</a></li>
+          <li class="menu-item"><a href="eventoslol.html">Eventos</a></li>
+        </ol>
+      </li>
+      <li class="menu-item">
+        <a href="#">Jogos</a>
+      </li>
+    </ol>
+  </nav>
+
+  <div class="containerPrincipal">
+    <div class="contentIntro">
+      <h1>Hello There. <br> Welcome to the <span class="azulClaro" id="hurgh">iFood!</span> Portal</h1>
+      <h3 class="azulClaro">We only deliver defeats!</h3>
+    </div>
+  </div>
+</body>
+<script>
+
+$(document).ready(function(){
+  $('#hurgh').mouseover(function(){
+      $("body").addClass("hover");
+  });
+  $('#hurgh').mouseout(function(){
+      $("body").removeClass("hover");
+  });
+  var obj = document.createElement("audio");
+  obj.src = "hurgh_sound.mp3";
+  obj.volume = 0.1;
+  obj.autoPlay = false;
+  obj.preLoad = true;
+  obj.controls = true;
+
+  $("#hurgh").click(function() {
+    obj.play();
+    // obj.pause();
+  });
+});
+</script>
+
+<script src="script.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+</html>
