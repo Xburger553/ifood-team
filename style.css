@@ -53,10 +53,10 @@
 /* FONTS */
 @font-face {
   font-family: 'ElanBQ';
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.eot');
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.eot?#iefix') format('embedded-opentype'),
-    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.woff2') format('woff2'),
-    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/ElanBQ-Book.woff') format('woff');
+  src: url('/fonts/ElanBQ-Book.eot');
+  src: url('/fonts/ElanBQ-Book.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/ElanBQ-Book.woff2') format('woff2'),
+    url('/fonts/ElanBQ-Book.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -64,10 +64,10 @@
 
 @font-face {
   font-family: 'FrizQuadrata';
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.eot');
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.eot?#iefix') format('embedded-opentype'),
-    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.woff2') format('woff2'),
-    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/FrizQuadrata.woff') format('woff');
+  src: url('/fonts/FrizQuadrata.eot');
+  src: url('/fonts/FrizQuadrata.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FrizQuadrata.woff2') format('woff2'),
+    url('/fonts/FrizQuadrata.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -75,8 +75,8 @@
 
 @font-face {
   font-family: 'MarcellusRegular';
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/marcellus-regular-webfont.woff2') format('woff2'),
-    url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/marcellus-regular-webfont.woff') format('woff');
+  src: url('/fonts/marcellus-regular-webfont.woff2') format('woff2'),
+    url('/fonts/marcellus-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   C: \Users\Adriel Oliveira\Documents\hurgh-site\fonts
@@ -84,7 +84,7 @@
 
 @font-face {
   font-family: CaeciliaLTStd-Light;
-  src: local(Caecilia-Light), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/Caecilia-Light.ttf) format("truetype");
+  src: local(Caecilia-Light), url(/fonts/Caecilia-Light.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -92,7 +92,7 @@
 
 @font-face {
   font-family: CaeciliaLTStd-Bold;
-  src: local(Caecilia-Bold), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/Caecilia-Bold.ttf) format("truetype");
+  src: local(Caecilia-Bold), url(/fonts/Caecilia-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
@@ -100,7 +100,7 @@
 
 @font-face {
   font-family: MyriadPro;
-  src: local(MyriadPro-Regular), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Regular.woff) format("woff"), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Regular.ttf) format("truetype");
+  src: local(MyriadPro-Regular), url(/fonts/MyriadPro-Regular.woff) format("woff"), url(/fonts/MyriadPro-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -108,8 +108,8 @@
 
 @font-face {
   font-family: MyriadPro;
-  src: url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.eot');
-  src: local(MyriadPro-Light), url('file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.woff) format("woff"), url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/fonts/MyriadPro-Light.ttf) format("truetype");
+  src: url('/fonts/MyriadPro-Light.eot');
+  src: local(MyriadPro-Light), url('/fonts/MyriadPro-Light.eot?#iefix') format('embedded-opentype'), url(/fonts/MyriadPro-Light.woff) format("woff"), url(/fonts/MyriadPro-Light.ttf) format("truetype");
   font-weight: 200;
   font-style: normal;
   font-stretch: normal;
@@ -123,13 +123,13 @@ body {
 }
 
 body.index {
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/background-body4.jpg") no-repeat;
+  background: url("/imgs/background-body4.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
 body.index {
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/background-body4-1.jpg") no-repeat;
+  background: url("/imgs/background-body4-1.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
 }
@@ -318,7 +318,7 @@ p.quotes span {
 }
 
 body.championList {
-  background: url("file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg_lol.jpg") no-repeat;
+  background: url("/imgs/bg_lol.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -446,7 +446,7 @@ h3.title span {
 
 /* PG - MEMBROS */
 body.membros {
-  background: url(file:///C:/Users/Adriel%20Oliveira/Documents/hurgh-site/imgs/bg_membros.jfif) no-repeat;
+  background: url(/imgs/bg_membros.jfif) no-repeat;
   background-size: cover;
   background-position: 0;
   background-attachment: fixed;
